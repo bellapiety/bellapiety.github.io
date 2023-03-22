@@ -1,0 +1,16 @@
+h1 {
+    color: blue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border: 4px green solid;
+}
+body {
+    background-image:url("../ASSETS/IMAGES/bg.jpg");
+}
+
+#intro {
+    color:antiquewhite
+}
+.whitebg {
+    background-color: antiquewhite;
+}
