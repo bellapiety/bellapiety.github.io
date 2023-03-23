@@ -1,4 +1,4 @@
-#content { background-color:darkkhaki}
-#main { background-color:palegoldenrod;}
+#content { background-color:darkkhaki;padding: 4px; margin: 4px;border:2px solid;}
+#main { background-color:palegoldenrod;margin: 4px;}
 #footer{background-color: palegoldenrod;}
-h1 {align-items: center;}
+h3 {text-align: center;}
