@@ -1,14 +1,37 @@
-h1{font-size: 50px; text-align: center; color: antiquewhite;background-color: darkolivegreen;}
+h1{font-size: 50px; text-align: center;
+color: antiquewhite;
+background-color: darkolivegreen;
+font-style:oblique;
+font-size: 80px;
+font-weight: 700;}
+
 html{background-color:bisque;}
-p{color:darkolivegreen;}
+
+p{color:darkolivegreen;
+font-size:30px;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 200;}
+
 a{background-color:darkolivegreen;color:white;}
-h2{text-align: center;font-size: 30px;color:darkolivegreen; background-color:floralwhite;}
+
+h2{text-align: center;font-size: 50px;color:darkolivegreen; background-color:floralwhite;}
+
 hr{color:black;}
+
 img{float: right;}
+
 #rock{float: right;}
+
 #country{float:right;}
+
 #historypic{float: left;}
+
 #rock{float: left;}
+
 #rb{float: left;}
+
 #indie{float: right;}
+
 #jazz{float: left;}
+
+#br{color:darkolivegreen}
