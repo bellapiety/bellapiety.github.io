@@ -6,4 +6,9 @@ h2{text-align: center;font-size: 30px;color:darkolivegreen; background-color:flo
 hr{color:black;}
 img{float: right;}
 #rock{float: right;}
-#country{float: left;}
+#country{float:right;}
+#historypic{float: left;}
+#rock{float: left;}
+#rb{float: left;}
+#indie{float: right;}
+#jazz{float: left;}
