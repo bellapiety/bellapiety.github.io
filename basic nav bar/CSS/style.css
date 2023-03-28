@@ -1,0 +1,26 @@
+body, ul {margin: 0;}
+
+ul li {display: inline;}
+
+nav {background-color:darkseagreen;
+padding: 30px;
+text-align: center;}
+
+li {margin: 60px;
+font-size:40px;}
+
+a {color:darkslategray;}
+
+h1 {text-align: center;
+font-size:100px;
+color:darkslategray;}
+
+p {font-size: 20px;}
+
+i {background-color:darkseagreen;}
+
+li a {text-decoration:none;
+color: antiquewhite;
+font-weight: bold;}
+
+li a:hover {text-decoration: underline;}
