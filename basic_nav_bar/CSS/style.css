@@ -4,7 +4,10 @@ ul li {display: inline;}
 
 nav {background-color:darkseagreen;
 padding: 30px;
-text-align: center;}
+text-align: center;
+position: sticky;
+top:0;
+}
 
 li {margin: 60px;
 font-size:40px;}
@@ -15,7 +18,8 @@ h1 {text-align: center;
 font-size:100px;
 color:darkslategray;}
 
-p {font-size: 20px;}
+p {font-size: 20px;
+margin: 30px;}
 
 i {background-color:darkseagreen;}
 
@@ -24,3 +28,11 @@ color: antiquewhite;
 font-weight: bold;}
 
 li a:hover {text-decoration: underline;}
+
+body{height: 2000px;}
+#phonenumber {font-size: 50px;}
+
+img{float: left;
+margin-right: 20px;}
+
+#houseimg{float: right;}
