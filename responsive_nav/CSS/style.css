@@ -44,6 +44,18 @@ ul a:hover {
 }
 
 .dropdown-menu {
-    display: block;
+    display:block;
 }
 
+#images {
+    background-image: url("../ASSETS/cafe.jpg");
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+#menupic {
+    background-image: url("../ASSETS/coffee.jpg");
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
