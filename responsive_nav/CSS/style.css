@@ -15,6 +15,10 @@ ul {
 
 }
 
+body{
+    margin:0;
+}
+
 nav{
     background-color: rgb(148, 164, 88);
     margin:0;
@@ -68,7 +72,9 @@ ul a:hover {
 
 #home{
     font-size: 25px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    margin:10px;
 
 }
 #latte {
@@ -114,15 +120,6 @@ h1 {
 
 }
 
-@media only screen and (max-width: 768px) {
-    .imgs {
-        flex-direction: column;
-    }
-    figure {
-        width: 100%;
-    }
-}
-
 .imgs {
     display: flex;
     justify-content: center;
@@ -141,4 +138,82 @@ figure img {
     height:100%;
     object-fit: cover;
 
+}
+
+figcaption{
+    font-family: fantasy;
+    color:rgb(148, 164, 88);
+    font-size: 30px;
+
+}
+
+h1,h2,p{
+    color:rgb(148, 164, 88);
+    padding: 0;
+
+}
+
+h4{
+    color:rgb(148, 164, 88);
+    text-align: center;
+    padding: 0;
+    font-size: 20px;
+}
+
+#employee {
+    float:right;
+    margin:10px;
+    padding:10px;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+}
+h2{
+    font-size: 45px;
+    text-align: center;
+}
+
+#footer{
+    padding: 10px;
+    margin:10px;
+}
+
+
+.bellascafe{
+    position: absolute;
+  top: 23%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: antiquewhite;
+  font-family:fantasy;
+  font-size: 80px;
+}
+
+#introtext{
+    position: absolute;
+    top:20%;
+    left:10%;
+    transform: translate(-50%,);
+    color: antiquewhite;
+    font-family: fantasy;
+    font-size: 30px;
+    margin:100px;
+}
+#images {
+    -webkit-filter: blur(4px); /* Safari 6.0 - 9.0 */
+    filter: blur(4px);
+    width:100%;
+    background-size: cover;
+    background-position: cover;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .imgs {
+        flex-direction: column;
+    }
+    figure {
+        width: 100%;
+    }
 }
