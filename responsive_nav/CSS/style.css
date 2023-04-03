@@ -36,6 +36,7 @@ li{
     height: 130px;
     width: 250px;
     padding: 20px;
+    z-index: 99;
 }
 
 .trigger-dropdown:hover .dropdown-menu {
