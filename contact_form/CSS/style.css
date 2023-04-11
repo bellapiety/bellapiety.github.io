@@ -1,0 +1,12 @@
+input[type=text] {
+   background-color:seashell;
+}
+
+#fname{
+    float: left;
+}
+
+#lname{
+    float:right
+
+}

@@ -30,6 +30,7 @@ main {
     color: #444;
 }
 
+
 @media screen and (max-width: 1200px) {
     main {
         grid-template-columns: 20% 60% 20%;
