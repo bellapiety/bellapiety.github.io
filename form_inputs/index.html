@@ -20,6 +20,7 @@
             <div class="form">
                 <form action="POST">
                     <!-- NAME -->
+                    <fieldset>
                     <input type="text" name="firstname" id="firstname"
                     placeholder="First Name" required minlength="2" maxlength="30">
                     <input type="text" name="lastname" id="lastname"
@@ -30,6 +31,7 @@
                     <input type="password" name="password" id="password" placeholder="Password" required minlength="2" maxlength="30" >
 
                     <!-- GENDER -->
+                    <h3>GENDER</h3>
                     <label for="female">Female</label>
                     <input type="radio" id="female" name="female"
                     value="female">
@@ -39,6 +41,8 @@
                     <input type="radio" id="other" name="other" value="other">
                     
                     <!-- BIRTHDAY -->
+                    <h3>BIRTHDAY</h3>
+                    <DIV ID="SELECT">
                     <select name="Age" id="month" required>
                         <option value="jan">January</option>
                         <option value="feb">February</option>
@@ -66,9 +70,13 @@
                         <option value="1970">1970</option>
                         <option value="1960">1960</option>
                     </select>
+                </DIV>
 
                     <!-- SUBMIT -->
+                    <DIV ID="SUBMITBTN">
                     <input type="submit" id="submit">
+                </DIV>
+                    </fieldset>
 
                 </form>
             </div>
