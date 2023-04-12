@@ -18,15 +18,29 @@ fieldset{
     align-items: center;
     border-color:rgb(243, 153, 18);
     padding:5%;
-    margin: 60px
+    margin: 90px
+
 }
+
+input:valid{
+    border: rgb(243, 153, 18) 2px solid;
+}
+
+input:invalid{
+    border: rgb(219, 63, 146) 2px solid;
+}
+
 #submitbtn{
     width:40%;
     font-family: 'Bangers', cursive;
     color:rgb(243, 153, 18);
     font-size: 30px;
-    
 }
+
+#submitbtn:hover {
+    color: rgb(219, 63, 146);}
+
+
 
 .ph::placeholder{
     font-family: 'Oswald', sans-serif;
@@ -48,4 +62,8 @@ h3{
 
 #msg{
     padding-bottom: 200px;
+}
+
+html{
+    background-color: rgb(255, 170, 219);
 }
