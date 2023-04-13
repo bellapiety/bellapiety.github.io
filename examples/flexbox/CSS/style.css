@@ -1,23 +1,5 @@
-.flex-container{
-    display: flex;
-    flex-direction:row;
-    background-color: black;
-    height: 500px;
-    justify-content:center;
-    align-items: center;
-    gap: 10px;
+.col{
+    background-color: lightblue;
+    border:2px solid;
 }
 
-.item{color:white;
-height: 50px;
-width: 50px;
-background-color: lightskyblue;
-margin: 5px;
-}
-
-#item1, #item6 {
-    align-self: flex-start;
-}
-#item5,#item2 {
-    flex-grow: 1;
-}
