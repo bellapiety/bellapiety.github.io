@@ -218,3 +218,10 @@ footer h4 {
   font-family: "Bebas Neue";
   font-weight: bold;
 }
+
+.object-fit-cover{
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  
+}
