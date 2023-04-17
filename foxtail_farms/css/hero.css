@@ -1,0 +1,22 @@
+.sitehero{
+    height:80vh;
+    background-image: url("../assets/branding/wood_bkgrnd.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.herotext{
+    color:aliceblue;
+    font-family: 'Bebas Neue', cursive;
+    font-style: italic;
+    text-align: center;
+
+}.herotext h1{
+    font-size: 5em;
+}
+
+.herotext h3{
+    font-size: 3em;
+}

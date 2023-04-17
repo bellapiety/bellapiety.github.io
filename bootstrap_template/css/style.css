@@ -223,5 +223,11 @@ footer h4 {
   height: 100%;
   object-fit: cover;
   width: 100%;
-  
+
+}
+
+.d-block{
+  object-fit: cover;
+  height: 50vh;
+  padding:30px;
 }
