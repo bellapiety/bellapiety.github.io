@@ -1,0 +1,82 @@
+@font-face {
+    font-family: berose;
+    src: url("../assets/Berose\ Demo.ttf");
+}
+
+body{
+    background-color: rgb(128, 151, 119);
+}
+
+/* HERO */
+
+.sitehero{
+    background-image: url("../images/HERO.jpg");
+    background-position: center;
+    background-size: cover;
+    background-position-y:left;
+    height: 80vh;
+}
+
+.herotext h1 {
+font-family: berose;
+font-size: 160px;
+margin-left: 200px;
+padding-top: 90px;
+padding-bottom: 0px;
+color: rgb(42, 80, 28);
+}
+
+.herotext h3 {
+    font-family: berose;
+    font-size: 120px;
+    margin-left: 90px;
+    padding-top:100px;
+    color: rgb(42, 80, 28);
+    }
+
+    #mywork {
+        font-family: berose;
+        color: antiquewhite;
+        font-size: 120px;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+/* CAROUSEL */
+
+
+.carousel-item{
+    height: 60vh;
+    object-fit: cover;
+}
+
+.carousel-item img{
+    height: 100%;
+}
+
+h5 {
+    color: antiquewhite;
+    background-color: rgb(42, 80, 28);
+    font-family: berose;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+p{
+    color: antiquewhite;
+    background-color: rgb(42, 80, 28);
+    font-family: berose;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#contactlink, #cafelink, #foxtaillink {
+    color: antiquewhite;
+    background-color:rgb(42, 80, 28) ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

@@ -1,0 +1,241 @@
+html{
+    background-color: bisque;
+}
+
+
+ul {
+    display:flex;
+    height: 100px;
+    gap:300px;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    list-style: none;
+    padding:0
+
+}
+
+body{
+    margin:0;
+}
+
+nav{
+    background-color: rgb(148, 164, 88);
+    margin:0;
+}
+
+li{
+    list-style: none;
+    font-size: 30px;
+}
+
+.dropdown-menu {
+    background-color:rgb(148, 164, 88);
+    position:absolute;
+    opacity:0;
+    height: 130px;
+    width: 250px;
+    padding: 20px;
+    z-index: 99;
+}
+
+.trigger-dropdown:hover .dropdown-menu {
+    opacity:1;
+}
+
+ul a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-family:fantasy
+}
+
+ul a:hover {
+    text-decoration:underline;
+}
+
+.dropdown-menu {
+    display:block;
+}
+
+#images {
+    background-image: url("../ASSETS/cafe.jpg");
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+#menupic {
+    background-image: url("../ASSETS/coffee.jpg");
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#home{
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    margin:10px;
+
+}
+#latte {
+    background-image: url("../ASSETS/latte2.jpg");
+    height:50vh;
+    background-size: cover;
+    background-position: center;
+    width:80vh;
+    float:right;
+    margin-left: 20px;
+}
+
+#espresso {
+    background-image: url("../ASSETS/espressomachine.jpg");
+    height:50vh;
+    background-size: cover;
+    background-position: center;
+    width:80vh;
+    float:left;
+    margin-right: 20px;
+}
+
+footer{
+    font-family: fantasy;
+    background-color:rgb(148, 164, 88);
+    color:antiquewhite
+}
+
+h1 {
+    font-size:100px;
+    text-align: center;
+    font-family: fantasy;
+    margin-bottom:0;
+
+}
+
+#coffeeandespresso {
+    background-image: url("../ASSETS/coffeeandespresso.jpg");
+    height:50vh;
+    background-size: cover;
+    background-position: center;
+    width: 50vh;
+
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height:50vh;
+}
+
+figure img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+
+}
+
+figcaption{
+    font-family: fantasy;
+    color:rgb(148, 164, 88);
+    font-size: 30px;
+
+}
+
+#aboutustext,h2,p{
+    color:rgb(148, 164, 88);
+    padding: 0;
+
+}
+
+h4{
+    color:rgb(148, 164, 88);
+    text-align: center;
+    padding: 0;
+    font-size: 20px;
+}
+
+#employee {
+    float:right;
+    margin:10px;
+    padding:10px;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+}
+h2{
+    font-size: 45px;
+    text-align: center;
+}
+
+#footer{
+    padding: 10px;
+    margin:10px;
+}
+
+
+.bellascafe{
+    position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: antiquewhite;
+  font-family:fantasy;
+  font-size: 80px;
+}
+
+#introtext{
+    position: absolute;
+    top:31%;
+    left:10%;
+    transform: translate(-50%,);
+    color: antiquewhite;
+    font-family: fantasy;
+    font-size: 30px;
+    margin:100px;
+}
+#images {
+    -webkit-filter: blur(4px); /* Safari 6.0 - 9.0 */
+    filter: blur(4px);
+    width:100%;
+    background-size: cover;
+    background-position: cover;
+  }
+
+  .menu {
+    position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: antiquewhite;
+  font-family:fantasy;
+  font-size: 80px;
+  }
+
+  #menutext{
+    position: absolute;
+    top:30%;
+    left:10%;
+    transform: translate(-50%,);
+    color: antiquewhite;
+    font-family: fantasy;
+    font-size: 30px;
+    margin:100px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .imgs {
+        flex-direction: column;
+    }
+    figure {
+        width: 100%;
+    }
+}

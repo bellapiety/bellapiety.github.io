@@ -1,0 +1,11 @@
+.sitehero{
+    height:80vh;
+    background: radial-gradient(rgb(255,0,0,0), rgba(0,0,0,0.6)), url("../assets/imgs/farm.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+

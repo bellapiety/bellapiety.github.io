@@ -1,0 +1,292 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+/*~~~~~~ MAIN BRAND STYLE ~~~~~~~~*/
+
+/* typography: */
+body, main, footer, nav, header {
+  font-family: "Open Sans";
+}
+a {
+  color:#e1a177;
+}
+.btn {
+  background-color: #f8feff;
+  border:2px solid #e1a177;
+  border-radius: 0px;
+}
+
+/* Header & Navbar: */
+
+body {
+  margin:0;
+  color:#e1a177;
+  border-color: #e1a177;
+}
+
+header {
+  border-bottom: 2px solid#e1a177;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:50px;
+  background-color:#f8feff;
+  color:#b7744f;
+}
+.header-top{
+  width:15%;
+}
+nav {
+  border-bottom: 2px solid #e1a177;
+  background-color:#b7744f;
+  position:sticky;
+  top:0px;
+  box-shadow: 0px 3px 3px 0px rgb(0,0,0,0.3);
+  display:flex;
+  justify-content: space-between;
+  z-index: 99;
+  font-weight: 500;
+}
+
+nav ul {
+  display:flex;
+  padding-left:0;
+  margin:0px;
+}
+
+nav li {
+  list-style-type: none;
+}
+nav a {
+  color:#e1a177;
+  text-decoration: none;
+  padding:5px 20px;
+  padding-left:2.5px;
+  display:inline-block;
+}
+nav a::before {
+  content:"|";
+  padding-right:5px;
+}
+nav a:hover {
+  background-color: #e1a177;
+  color:#f8feff;
+}
+.nav-contact {
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  height:auto;
+  width:33%;
+}
+.nav-contact:hover {
+  color:#e1a177;
+}
+.nav-contact ion-icon{
+  margin-right:10px;
+}
+.nav-contact p {
+  margin:0;
+  margin-right: 10px;
+}
+
+#site_logo {
+  width:100%;
+}
+
+#sitelogo{
+  height: 20vh;
+}
+
+.site_title {
+  font-family: 'Lobster', cursive;
+  font-size: 4em;
+  font-weight: 900;
+  margin-bottom:0;
+  align-items: center;
+}
+.site_quote {
+  font-size: 1em;
+  text-align: right;
+  font-style: italic;
+  font-weight: 600;
+  margin:0px;
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
+}
+#site_logo:hover,.site_title:hover,.site_quote:hover {
+  color:#b7744f;
+  cursor:pointer;
+}
+
+
+/* MAIN Content */
+
+#ourstory{
+  font-family: lobster;
+  text-align: center;
+  font-size: 10vh;
+  padding-top: 10vh;
+  color:#b7744f;
+}
+main {
+  padding: 25px 15%;
+}
+
+/* contents: */
+
+
+.content {
+  background-color: #ffd0b0;
+  border:2px solid #b7744f;
+  padding:15px;
+  color:#2e4c83;
+  box-shadow: 2px 3px 1px 1px rgba(0,0,0,0.3);
+  margin:50px 0px;
+}
+.content-header {
+  font-size: 42pt;
+  font-family: "lobster";
+  margin:0;
+  text-align: center;
+  padding:25px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 80px;
+  color: #b7744f;
+}
+.content-subhead {
+  border-bottom: 1px solid #b7744f;
+  margin:0;
+  text-align: center;
+  margin-bottom:25px;
+  padding-bottom:25px;
+  font-family: 'Montserrat', sans-serif;
+  color: #b7744f;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 30px;
+}
+.content-content {
+  padding:20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #b7744f;
+  font-size: 20px;
+  
+  
+}
+
+#organicfarming{
+  background-image: url("../assets/branding/foxtail_logos-1-03.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh;
+  background-size:auto;
+}
+
+
+/* CAROUSEL */
+
+#carousel1 {
+  background-image: url("../assets/imgs/carousel1.jpg");
+}
+
+#carousel2{
+  background-image: url("../assets/imgs/carousel2.jpg");
+}
+
+#carousel3{
+  background-image: url("../assets/imgs/carousel3.jpg");
+}
+
+/* Footer ~~~~~~~ */
+.footer-hat {
+  height:30px;
+  background-color: #b7744f;
+  border-top:2px solid #e1a177;
+}
+footer {
+  background-color: #b7744f;
+  padding:25px;
+  border-top:2px dashed #e1a177;
+  box-sizing: border-box;
+  display:flex;
+}
+footer h4, footer h5, footer h6 {
+  font-family: "lobster" ;
+  margin:0;
+
+}
+.footer-left {
+  flex: 1;
+  margin-bottom:50px;
+}
+
+.footer-left ul{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-right {
+  flex:3;
+  margin-left:25px;
+}
+
+.footer-right p{
+  font-family: 'Montserrat', sans-serif;
+}
+footer h4 {
+  font-size: 2em;
+  font-family: lobster;
+}
+.footer-right h6 {
+  font-size: 1.5em;
+}
+.footer-right p {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.footer-feet {
+  background-color: #b7744f;
+  height:40px;
+  border-top: 2px dashed #e1a177;
+
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:10px;
+  font-size: 8pt;
+}
+
+.footer-feet p {
+  margin:0;
+}
+
+/* Special typography */
+
+.dropcap {
+  float:left;
+  font-size:42pt;
+  margin-top: -5px;
+  line-height: 0.65;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-family: "Bebas Neue";
+  font-weight: bold;
+}
+
+.object-fit-cover{
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+
+}
+
+.d-block{
+  object-fit: cover;
+  height: 50vh;
+  padding:30px;
+}
