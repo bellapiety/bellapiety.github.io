@@ -22,24 +22,24 @@ body{
 }
 
 .herotext h1 {
-font-family: evidance;
-font-size: 130px;
-margin-left: 300px;
+font-family: berose;
+font-size: 200px;
+margin-left: 400px;
 padding-top: 170px;
 padding-bottom: 0px;
 color: rgb(42, 80, 28);
 }
 
 .herotext h3 {
-    font-family: evidance;
-    font-size: 90px;
-    margin-left: 90px;
+    font-family: berose;
+    font-size: 150px;
+    margin-left: 180px;
     padding-top:100px;
     color: rgb(42, 80, 28);
     }
 
     #mywork {
-        font-family: evidance;
+        font-family: berose;
         color: antiquewhite;
         font-size: 100px;
         text-align: center;
