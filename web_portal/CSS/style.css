@@ -2,6 +2,10 @@
     font-family: berose;
     src: url("../assets/Berose\ Demo.ttf");
 }
+@font-face {
+    font-family: evidance;
+    src: url(../assets/Evidance\ Display\ Demo.otf);
+}
 
 body{
     background-color: rgb(128, 151, 119);
@@ -18,28 +22,36 @@ body{
 }
 
 .herotext h1 {
-font-family: berose;
-font-size: 160px;
-margin-left: 200px;
-padding-top: 90px;
+font-family: evidance;
+font-size: 130px;
+margin-left: 300px;
+padding-top: 170px;
 padding-bottom: 0px;
 color: rgb(42, 80, 28);
 }
 
 .herotext h3 {
-    font-family: berose;
-    font-size: 120px;
+    font-family: evidance;
+    font-size: 90px;
     margin-left: 90px;
     padding-top:100px;
     color: rgb(42, 80, 28);
     }
 
     #mywork {
-        font-family: berose;
+        font-family: evidance;
         color: antiquewhite;
-        font-size: 120px;
+        font-size: 100px;
         text-align: center;
         padding-top: 40px;
+    }
+
+    .abouthero{
+        background-image: url("../images/cacti.jpg");
+        background-position: center;
+        background-size: cover;
+        background-position-y:left;
+        height: 80vh; 
     }
 
 /* CAROUSEL */
@@ -48,6 +60,7 @@ color: rgb(42, 80, 28);
 .carousel-item{
     height: 60vh;
     object-fit: cover;
+    padding-bottom: 180px;
 }
 
 .carousel-item img{
@@ -56,8 +69,8 @@ color: rgb(42, 80, 28);
 
 h5 {
     color: antiquewhite;
-    background-color: rgb(42, 80, 28);
-    font-family: berose;
+   
+    font-family: evidance;
     margin-right: 150px;
     margin-left: 150px;
     padding-top: 5px;
@@ -66,17 +79,50 @@ h5 {
 
 p{
     color: antiquewhite;
-    background-color: rgb(42, 80, 28);
+    
     font-family: berose;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
 #contactlink, #cafelink, #foxtaillink {
     color: antiquewhite;
-    background-color:rgb(42, 80, 28) ;
+    
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+/* NAV BAR */
+
+.container-nav{
+    background-color:rgb(42, 80, 28);
+}
+
+.nav-link{
+    color: antiquewhite;
+    font-family: evidance;
+    font-size: 30px;
+    
+    
+}
+
+.nav-link:hover{
+    color: darkolivegreen;
+}
+
+.nav-item{
+    margin:0 31rem;
+}
+
+ul{
+    margin-right:40px;
+}
+
+/* ABOUT ME */
+
+#about-me-paragraph{
+    margin: 20px;
+    font-size: 30px;
 }
