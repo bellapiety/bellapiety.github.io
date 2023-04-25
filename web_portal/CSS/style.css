@@ -59,12 +59,12 @@ color: rgb(42, 80, 28);
 
 .carousel-item{
     height: 60vh;
-    object-fit: cover;
     padding-bottom: 180px;
 }
 
 .carousel-item img{
     height: 100%;
+    object-fit: cover;
 }
 
 h5 {
@@ -113,7 +113,7 @@ p{
 }
 
 .nav-item{
-    margin:0 31rem;
+    margin:0 29rem;
 }
 
 ul{
