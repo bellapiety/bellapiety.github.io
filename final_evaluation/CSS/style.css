@@ -1,0 +1,17 @@
+.sitehero{
+    background-image: url("../ASSETS/hulu-bg.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-position-y:left;
+    height: 60vh;
+}
+
+.herotext h1{
+color:white;
+text-align: center;
+padding-top: 180px;
+}
+
+nav{
+    background-color: black;
+}
