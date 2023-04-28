@@ -15,6 +15,43 @@ body{
     background-color: black;
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+
+}
+
+#submitbttn {
+    background-color: #1ce783;
+    height: 3rem;
+    font-family: graphik bold;
+    font-size: 1rem;
+    border: 0;
+}
+
+a{
+    padding: 10px;
+}
+
+#email{
+    border: 0;
+    padding: 20px;
+    font-family: graphik bold;
+    color: black;
+}
+
+button{
+    font-family: graphik bold;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+button:hover{
+    background-color:darkgrey;
+    color: white;
+    
+}
 
 /* NAVBAR */
 
@@ -45,7 +82,7 @@ header{
     display:flex;
     flex-direction: column;
     color: white;
-    height: 50vh;
+    height: 60vh;
 } 
 
 #bundle{
@@ -69,12 +106,15 @@ align-items: center;
 align-self: center;
 justify-content: center;
 margin-top: auto;
+margin-bottom: auto;
+margin-left: 20px;
+margin-right: 20px;
 }
 
 #banner img{
     width: 40vh;
     float: left;
-    margin-right: 200px;
+    margin-right: 100px;
 }
 
 
@@ -106,6 +146,9 @@ main h5{
     font-family: graphik reg;
 }
 
+
+
+
 #banner h2, p{
     color: white;
     font-family: graphik reg;
@@ -117,18 +160,11 @@ main h5{
 
 /* GALLERY */
 
-/* #gallery img{
-height: 50vh;
-margin-left: 90px;
-justify-content: space-between;
-margin-right: 90px;
-} */
-
 main{
     background-color: black;
     color: white;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;3
     align-items: center;
     height: 60vh;
 }
@@ -145,8 +181,8 @@ main{
 }
 
 @media screen and (max-width: 768px) {
-    #gallery(
+    #gallery (
         grid-template-columns: 1fr, 1fr;
         grid-template-rows: auto;
     )
-};
+}
