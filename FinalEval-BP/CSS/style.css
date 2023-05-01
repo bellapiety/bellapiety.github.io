@@ -1,0 +1,286 @@
+@font-face {
+    font-family:BLACK;
+    src: url(BLACK.otf);
+}
+@font-face {
+    font-family:BOOK;
+    src: url(BOOK.otf);
+}
+@font-face {
+    font-family:ROMAN;
+    src: url(ROMAN.otf);
+}
+
+
+
+body{
+    margin: 0;
+    background-color:#040714;
+}
+
+
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav img{
+    margin: 15px;
+}
+
+nav button{
+background-color: black;
+border: 1px solid white;
+margin: 15px;
+color: white;
+border-radius: 5px;
+}
+
+nav button:hover{
+    background-color: white;
+    border: 0;
+    margin: 15px;
+    color: black;
+    border-radius: 5px;
+    }
+
+header{
+    background-image: url("../ASSETS/disney+bg.jpeg");
+    background: linear-gradient(rgb(255,0,0,0), rgba(0,0,0,0.1)), url("../ASSETS/disney+bg.jpeg");
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    color: white;
+    height: 70vh;
+} 
+
+#disneybundles{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+#bundle{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#submitbttn, #getall3bttn{
+    background-color:#0063e5;
+    color: white;
+    margin: 15px;
+    border: 0;
+    padding: 20px;
+    width: 350px;
+    border-radius: 5px;
+    font-family:ROMAN;
+}
+
+#submitbttn:hover, #getall3bttn:hover{
+    background-color: #3261e1;
+    color: white;
+    margin: 15px;
+    border: 0;
+    padding: 20px;
+    width: 350px;
+    border-radius: 5px;
+    font-family:ROMAN;
+}
+
+#bundle h2{
+    margin-left: 130px;
+}
+
+H2{
+    font-family: book;
+}
+
+h3{
+    font-family: roman;
+    align-self: center;
+}
+
+#info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    font-family:ROMAN;
+}
+
+#info a{
+    color: white;
+    margin-left: 8px;
+}
+
+a{
+    color: white;
+    text-align: center;
+    font-family: roman;
+}
+
+UL{
+    display: flex;
+    flex-direction: row;
+    color: white;
+   justify-content: center;
+
+}
+
+li{
+    margin: 20px;
+    font-family: roman;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+#trending{
+    text-decoration: underline 5px;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+    margin: 10px;
+}
+
+#gallery img{
+    height:35vh;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+#row1{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    align-self: center;
+    font-family: roman;
+}
+
+#row2{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    align-self: center;
+    font-family: roman;
+}
+
+#row3{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    font-family: roman;
+}
+
+#row1 p{
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+}
+
+#row2 p{
+    margin: 2px;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;  
+}
+
+/* FREQUENTLY ASKED QUESTIIONS */
+
+.FAQ{
+    padding: 30px;
+   
+}
+
+.FAQ button{
+    padding: 20px;
+    margin: 10px;
+    width: 50%;
+    margin-left: 600px;
+    font-size: 15px;
+    font-family: roman;
+    
+}
+
+h1{
+    color:white;
+    text-align: center;
+    font-family:black;
+    font-size: 35px;
+}
+
+
+.accordion {
+    background-color: #13151c;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+    color:rgb(50, 50, 50);
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display:none;
+    overflow:hidden;
+  }
+
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+  
+
+@media screen and (max-width: 768px) {
+    #gallery{
+        grid-template-columns: 1fr, 1fr;
+        grid-template-rows:auto;}
+    
+}
