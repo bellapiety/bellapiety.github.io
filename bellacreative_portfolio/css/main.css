@@ -42,13 +42,14 @@ header {
    width: 40px;
    height: 40px;
    justify-content:center;
+   margin: 10px;
 }
 
 nav {
     width: 90%;
     margin: 0 auto;
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
     padding: 10px 0;
     top: 0;
     position: fixed;
@@ -63,6 +64,7 @@ ul {
     display: flex;
     font-size: 30px;
     font-family: fruinky;
+    padding-top: 10px;
 
 }
 ul li {
@@ -114,7 +116,42 @@ main {
 }
 
 /* GALLERY */
-.gallery h2 {
+
+body {
+    margin: 0;
+  }
+  
+  .image-grid {
+    margin: 30px;
+    --gap: 10px;
+    --num-cols: 4;
+    --row-height:200px;
+  
+    box-sizing: border-box;
+    padding: var(--gap);
+  
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+  }
+  
+  .image-grid > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+  
+  .image-grid-col-2 {
+    grid-column: span 2;
+  }
+  
+  .image-grid-row-2 {
+    grid-row: span 2;
+  }
+  
+  .gallery h2 {
     text-align: center;
     margin: 40px 450px 60px 450px;
     font-size: 70px;
@@ -124,18 +161,41 @@ main {
    padding: 20px;
    border-radius: 15px;
 }
-.gallery .projects {
+
+/* #gallery {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+    margin: 10px;
+}
+
+#gallery img{
+    height:35vh;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+
+
+
+/* .gallery .projects {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content:center;
     gap: 25px;
 }
 .gallery .projects .project-set {
     width: calc(50% - 25px);
+    margin: 30px;
+    padding: 60px;
+    display: flex;
+    flex-flow: column wrap;
+   align-items:center;
 }
 
 .gallery .projects .project-set img {
-    width: 100%;
+    width: 70%;
 }
 .gallery .projects .project-set p {
     margin: 10px 0;
@@ -154,7 +214,7 @@ main {
 .gallery .linkbtn:hover {
     background-color: transparent;
     color: black;
-}
+/* } */ 
 
 /* FOOTER */
 footer {
@@ -237,7 +297,7 @@ fieldset{
 }
 
 form{
-    padding: 300px 350px 300px 350px;
+    padding: 300px 350px 150px 350px;
 }
 
 input:valid{
