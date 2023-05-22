@@ -97,7 +97,6 @@ main {
     background-image: url("../images/heroportfolio.jpg");
     background-position: center;
     background-size: cover;
-    background-position-y:left;
     height: 85vh;
     /* background-image: url(../images/heroportfolio.jpg);
     display: flex;
@@ -120,7 +119,7 @@ main {
 }
 .hero .herotxt p{
     font-size: 50px;
-    margin-top: 270px;
+    margin-top: 310px;
 
 }
 /* GALLERY */
@@ -240,7 +239,6 @@ footer {
         background-image: url("../images/heroportfolio.jpg");
         background-position: center;
         background-size: cover;
-        background-position-y:left;
         background-repeat: no-repeat;
         height: 85vh;
 }
@@ -253,11 +251,11 @@ footer {
 
 #about main{
     display: flex;
-    height: 400px;
+    height: calc(100% - 103.889px);
     align-items: center;
-    margin: 350px 800px 50px 300px;
-    
-    
+    justify-content: center;
+    margin-top: 100px;
+    padding: 0 50%;
 }
 
 #about main div{
@@ -268,12 +266,8 @@ footer {
 }
 
 #about main div p{
-    margin: 10px 1500px 20px 0px;
-
-}
-
-#about main div ul{
-    margin-right: 1500px;
+    margin: 10px auto 20px 0;
+    width: 750px;
 }
 
 
