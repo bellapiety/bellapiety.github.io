@@ -28,11 +28,10 @@ body {
 }
 
 header {
-  border-bottom: 2px solid#e1a177;
   display:flex;
   align-items: center;
   justify-content: space-between;
-  padding:50px;
+  padding:5px;
   background-color:#f8feff;
   color:#b7744f;
 }
@@ -40,7 +39,6 @@ header {
   width:15%;
 }
 nav {
-  border-bottom: 2px solid #e1a177;
   background-color:#b7744f;
   position:sticky;
   top:0px;
@@ -59,11 +57,13 @@ nav ul {
 
 nav li {
   list-style-type: none;
+  font-family: Montserrat;
+  font-size: larger;
 }
 nav a {
-  color:#e1a177;
+  color:#f8feff;
   text-decoration: none;
-  padding:5px 20px;
+  padding:20px 20px;
   padding-left:2.5px;
   display:inline-block;
 }
@@ -87,10 +87,21 @@ nav a:hover {
 }
 .nav-contact ion-icon{
   margin-right:10px;
+  color: #f8feff;
 }
 .nav-contact p {
   margin:0;
   margin-right: 10px;
+  color: #f8feff;
+  font-family: Montserrat;
+  font-size: larger;
+}
+
+.products h4{
+  font-size: 7vh;
+  font-family: lobster;
+  text-align: center;
+  margin-top: 10px;
 }
 
 #site_logo {
@@ -103,14 +114,15 @@ nav a:hover {
 
 .site_title {
   font-family: 'Lobster', cursive;
-  font-size: 4em;
+  font-size: 5em;
   font-weight: 900;
   margin-bottom:0;
+  margin-right: 20px;
   align-items: center;
 }
 .site_quote {
-  font-size: 1em;
-  text-align: right;
+  font-size: 1.5em;
+  /* text-align: right; */
   font-style: italic;
   font-weight: 600;
   margin:0px;
@@ -223,7 +235,9 @@ footer h4, footer h5, footer h6 {
 .footer-left {
   flex: 1;
   margin-bottom:50px;
+  color: #f8feff;
 }
+
 
 .footer-left ul{
   font-family: 'Montserrat', sans-serif;
@@ -232,6 +246,7 @@ footer h4, footer h5, footer h6 {
 .footer-right {
   flex:3;
   margin-left:25px;
+  color: #f8feff;
 }
 
 .footer-right p{
@@ -259,6 +274,7 @@ footer h4 {
   justify-content: space-between;
   padding:10px;
   font-size: 8pt;
+  color: #f8feff;
 }
 
 .footer-feet p {
